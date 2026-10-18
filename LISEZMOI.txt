@@ -1,0 +1,29 @@
+FUCKANTUNE - autotune VST3 robotique
+====================================
+
+LES REGLAGES
+- KEY    : la tonalite de ton morceau (ex : A pour La)
+- SCALE  : Chromatique (toutes les notes), Majeur, Mineur, Pentatonique mineur
+- SPEED  : vitesse de correction. 100 % = la voix saute instantanement sur la note
+           (c'est le "0" de l'Antares). Plus bas = glissement plus naturel.
+- ROBOT  : l'EXTRA. Au-dela de l'instantane, ajoute une resonance metallique
+           accordee sur la note + des grains plus courts. Tourne a fond = abus.
+- L'ecran en haut a droite affiche la note visee. Clique sur les ballons pour les eclater.
+
+COMPILER AVEC GITHUB (sans rien installer)
+1. Cree un nouveau depot GitHub (ex : "fuckantune").
+2. Envoie TOUS les fichiers de ce dossier, y compris le dossier ".github"
+   (bouton Add file > Upload files, puis glisse tout le contenu du dossier).
+   Si le dossier .github n'apparait pas apres l'envoi, cree le fichier a la main :
+   Add file > Create new file, nom : .github/workflows/build.yml
+   et colle le contenu du fichier build.yml fourni.
+3. Onglet Actions : la compilation demarre toute seule (5-10 min).
+4. Quand c'est vert, clique dessus, telecharge "FUCKANTUNE-VST3" en bas de la page.
+5. Dezippe et copie FUCKANTUNE.vst3 dans C:\Program Files\Common Files\VST3
+6. FL Studio : Options > Manage plugins > Find installed plugins.
+
+UTILISATION
+Mets le plugin sur la piste de la voix (une seule voix a la fois, pas d'accords).
+Regle KEY et SCALE sur la tonalite de ta prod, SPEED a fond, puis monte ROBOT.
+
+Si la compilation affiche une croix rouge : copie l'erreur et envoie-la moi.
